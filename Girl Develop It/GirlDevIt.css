@@ -1,0 +1,70 @@
+/*
+* Victoria Corbo
+* December 3, 2018
+* Girl Develop It
+*/
+
+/* Needs to be centered*/
+ 
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Background color needs to be as close to the logo color as possible. Use rgb for the best outcome.*/
+
+header {
+    background-color: rgb(255, 102, 102);
+}
+
+/*The h2s need to look the same use type*/
+
+h2 {
+    text-decoration: underline;
+    font-family: "Apple Chancery", "Brush Script MT", cursive;
+    font-size: 200%;
+}
+
+#main {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/*Float this picture to the right.*/
+
+#girl {
+    float: right;
+    height: 250px;
+}
+
+/*This picture shoud be nex to the picture before it, so float it to the right.*/
+
+#friends {
+    float: right;
+    height: 250px;
+}
+
+/*You have to clear the text because the text wraps around the pictures.*/
+
+#clear {
+    clear: left;
+    font-family: "Apple Chancery", "Brush Script MT", cursive;
+    font-size: 150%;
+    text-decoration: underline;
+}
+
+/*When you hover or focus over the text it should be pink and be larger then when it started. Use the rgb for the color.Use text-decoration for the underline. Use the percent font-size tomake it bigger.*/
+
+a:hover, a:focus {
+    color: rgb(255, 51, 204);
+    text-decoration: underline;
+    font-size: 150%;
+}
+
+Footer {
+    clear: both;
+}
+
+body {
+    background-color: rgb(255, 230, 230)
+}
